@@ -1,0 +1,81 @@
+/* SignUp.css */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 94%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-group textarea {
+    width: 94%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+/* .forgot-signin {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.forgot-signin a {
+    margin-right: 40px;
+    color: hwb(250 0% 0%);
+    text-decoration: none;
+}
+
+.forgot-signin a:hover {
+    text-decoration: underline;
+} */
+.forgot-signin {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-signin a {
+    color: hwb(250 0% 0%);
+    text-decoration: none;
+}
+
+.forgot-signin a:hover {
+    text-decoration: underline;
+}
